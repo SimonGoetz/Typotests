@@ -1,0 +1,80 @@
+
+
+* { 
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+
+body {
+	padding: 10em;
+	width:60%;
+	font-family: 'Montserrat';
+}
+
+article {
+	padding-left: 40%;
+	padding-bottom: 2em;
+
+}
+
+h1 { 
+	font-size: 3.4em;
+
+	display: table;
+	width: auto;
+	padding: 0 1.5em .5em 0;
+	position: relative;
+	font-weight: 700;
+	color: #a10;
+
+}
+
+p, h1 {
+	font-family: 'Alegreya Sans';
+	
+}
+
+
+h2 {
+	font-size: 1em;
+	text-transform: uppercase; 
+	float: left;
+	margin-left: -60%;
+	width: 60%;
+
+}
+
+h2:before {
+	content: " ";
+	float: none;
+	display: block;
+	width: 270%;
+	border-top: .0625em solid #ccc;
+
+}
+
+
+h3 {
+	-moz-font-feature-settings: "smcp";
+	-ms-font-feature-settings: "smcp";
+	-webkit-font-feature-settings: "smcp";
+	-o-font-feature-settings: "smcp";
+	font-feature-settings: "smcp";
+	text-transform: lowercase;
+}
+
+p + p:before {
+	content: "❇";
+	display: block;
+	text-align: center;
+	margin: 0.7em;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: #a83;
+}
+
+
+
+
